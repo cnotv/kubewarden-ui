@@ -9,6 +9,13 @@ on:
       - main
     paths:
       - 'pkg/kubewarden/**'
+      - '.github/workflows/unit-tests-kubewarden.yml'
+      - 'babel.config.js'
+      - 'jest.config.js'
+      - 'package.json'
+      - 'tsconfig.json'
+      - 'yarn.lock'
+      - 'vue.config.js'
 
 jobs:
   unit-test-kubewarden:
